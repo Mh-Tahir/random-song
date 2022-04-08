@@ -40,7 +40,7 @@ addBtn.addEventListener("click", () => {
     let difference = newDate.getSeconds() - date.getSeconds();
     par.innerHTML = "Прошло " + difference + " секунд!";
   }, 1000);
-  // setTimeout(() => container.removeChild(par), 5000);
+  setTimeout(() => container.removeChild(par), 10000);
 });
 
 document.querySelector(".txt-input").addEventListener("keydown", (e) => {
