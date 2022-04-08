@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  font-size: 2rem;
+  color: gold;
+  text-align: center;
+  max-width: 600px;
+  padding: 50px;
+  background-color: olivedrab;
+  border-radius: 32px;
+}
+
+.hovered {
+  box-shadow: 10px 5px 5px red;
+}
+
+input {
+  margin-top: 20px;
+  cursor: pointer;
+  height: 4rem;
+  border: none;
+  border-radius: 12px;
+  color: azure;
+  background-color: chocolate;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+input:hover {
+  opacity: 0.8;
+}
+
+input:active {
+  opacity: 0.5;
+}
+
+.band {
+  margin-top: 20px;
+}
